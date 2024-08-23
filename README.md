@@ -26,7 +26,8 @@
 <img src="https://production-media.paperswithcode.com/methods/Screen_Shot_2020-07-19_at_11.13.45_AM_zsF2pa7.png" width="900" height="600">
 </p>
 <h2>Model Details</h2>
-<p>The model has been trained on a sandstone micro-ct image dataset for 30 epochs. The dataset comprises downscaled images of sandstone with the shape of (64,64,3) and upscaled images of (256,256,3). The model used binary cross entropy and mean squared error as a loss function and Adam as the optimizer.</p>
+<p>The model was rigorously trained on a comprehensive dataset of sandstone micro-CT images for 30 epochs. The dataset included downscaled images of sandstone with dimensions of (64,64,3) and their corresponding upscaled versions with dimensions of (256,256,3). To guide the model's learning, a combination of binary cross-entropy and mean squared error loss functions was employed. Additionally, the Adam optimizer was utilized to efficiently update the model's parameters, ensuring convergence towards optimal performance.
+</p>
 <h2>Model Architecture</h2>   
 <p align="center">
 <img src="https://github.com/NavinBondade/Micro-CT-Sandstone-Image-Super-Resolution-With-SRGAN/blob/main/Graphs/SRGAN.png">
@@ -46,6 +47,6 @@
 <img src="https://github.com/NavinBondade/Micro-CT-Sandstone-Image-Super-Resolution-With-SRGAN/blob/main/Graphs/Output.png" width="800" height="1200">
 </p>
 <h2>Conclusion</h2>  
-<p>In this project, I have implemented and trained SRGAN deep learning model for performing sandtone image upscaling from the resolution of 64x64 to 256x256.</p>  
+<p>In this project, I have implemented and trained the SRGAN deep learning model for performing sandtone image upscaling from the resolution of 64x64 to 256x256.</p>  
 
 
