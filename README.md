@@ -9,7 +9,7 @@
   <li>Numpy</li>
   <li>Pandas </li>
   <li>Matplotlib</li>
-  <li>Seaborn</li>
+  <li>Seaborn</li>      
   <li>Sklearn</li>
 </ul>
 <h2>Dataset Visualization</h2>
